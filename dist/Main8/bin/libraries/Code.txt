@@ -1,0 +1,52 @@
+Defitiont of each Function in the progam:
+Features.py:
+ChangeButton : Works to call ChangeInput.Change which you will be able to modify the values of the Input button or add and Or
+AddNewLine : This will check which Option you selected for the new Line could be TON,TOF,CTU,Single Line,etc.
+DrawLine : This will add the Label to count the number of the line and also the Ouput Button and the Canvas to draw the new Line
+AddInNewLineFun : This add the Input button at the beginning of each new Line
+ChangeButtonOr : This add the Input button on each Or Line
+ChangeButtonOr : Call ChangeInput.Change which will modify the values of the Input button in OR lines or add and Or inside the existing Or
+MoveElement : This will help you to move all elements when you add and Or will move all the elements after the Or
+_get_Number_Of_Lines : Will gives you how many lines are now
+_getLastY : Will gives you the Yposition of the last element in the current workspace
+_increaseLinex : This will increase the vertical lines each time you add new lines
+
+
+
+     ChangeInput.Change : To change the Label and Image of the Input Object and retrive the result could by I:0:0 M:0:0 etc etc and or
+
+ChangeButton
+
+[Line] =  Id line + Horline ,  Height of the vertical Line
+"O:0"= [
+"Button for the output symbol",
+ "Button for Count the line",
+ "Y position",
+ "Label for the Output",
+ "Blank",
+  "Id line + HorLine",
+   "Type of line could be LINE CTU CTUD TON or TOF",
+   "Button with the image for CTU CTUD TON or TOF"
+   "Label 1 for timers or counter",
+   "Label 2 for timers or counter",
+   "Label 3 for timers or counter",
+   "Label 4 for timers or counter",
+   "Size of horizontal line",
+]
+
+"O:2": ["Button", "Button", 136, "Label", "Blank", "18 VertLine", "Blank", "Button", "Label", "Label", "Label"],
+
+
+"0:0-0": [
+"Button for input",
+Xposition,
+ Yposition,
+  "LabelAdding",
+  "Bit",
+  "Kind of input could by Closed Open",
+  "Label with info of the Input",
+  "Id of 1st line for or",
+  "Id of 2nd line for or",
+  "Id of 3rd line for or",
+  ]
+
