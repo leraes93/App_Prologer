@@ -4,8 +4,8 @@
 block_cipher = None
 
 
-a = Analysis(['/home/pi/Documents/PLC/Programming_Mode/Main8.py'],
-             pathex=['/home/pi/Documents/App/plc_farstation'],
+a = Analysis(['/home/pi/Documents/Git/PLC/Programming_Mode/Main8.py'],
+             pathex=['/home/pi/Documents/App/App_Prologer'],
              binaries=[],
              datas=[],
              hiddenimports=['babel.numbers'],
