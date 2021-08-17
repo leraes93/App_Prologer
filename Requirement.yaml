@@ -3,19 +3,23 @@ PLC:
     version: v1.0
     path: OG/PLC/PLC.deb
     description: This feature is the first one
+    date: 2021-08-16
     
 WIN: 
     imge_name: Origin
     version: v1.0
     path: OG/WIN/PLC.exe
     description: This feature is the first one
+    date: 2021-08-16
 MAC:
     imge_name: Origin
     version: v1.0
     path: OG/MAC/PLC.dmg
     description: This feature is the first one
+    date: This feature is the first one
 UNIX:
     imge_name: Origin
     version: v1.0
     path: OG/UNIX/PLC.deb
     description: This feature is the first one
+    date: 2021-08-16
