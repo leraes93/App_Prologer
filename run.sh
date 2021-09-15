@@ -4,3 +4,4 @@ cd /home/pi/Documents/App/App_Prologer/dist/Main8
 #python3 ~/Documents/PLC/Programming_Mode/Main8.py
 #https://yotube.com/watch?v=cZa1oCSdbUk
 #https://github.com/pyinstaller/issues/3810
+#$ pyinstaller --hidden-import babel.numbers /home/pi/Documents/Git/PLC/Programming_Mode/Main8.py 
