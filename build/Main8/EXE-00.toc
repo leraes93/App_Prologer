@@ -51,7 +51,7 @@
  [],
  False,
  False,
- 1631715147,
+ 1631760455,
  [('run',
    '/home/pi/Documents/env/lib/python3.7/site-packages/PyInstaller/bootloader/Linux-32bit-arm/run',
    'EXECUTABLE')])
